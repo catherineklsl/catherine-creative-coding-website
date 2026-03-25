@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(96, 88, 86, 0.8);
+    height: 80px;
+    width: 100%;
+    position:fixed;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul{
+    display:flex;
+    gap:10px;
+}
+header li{
+    display: inline;
+    margin-right: 2vw;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type:y proximity;
+}
+.news{
+    background-color: #8c4843;
+    color:white;
+    height:100vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.news h2{
+    font-size: 40px;
+    color: white;
+    margin: 20px
+}
+.news p{
+    font-size: 25px;
+    font-family: 'Shadows Into Light', serif;
+    color: #fef7e6;
+    margin:15px
+}
+.news a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #ACACAC;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+.quote{
+    background-color: black;
+    color:white;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    scroll-snap-align: start;
+}
+.s1{
+    height: 100vh;
+    background-color:#8ACDEA;
+    background-image: url("image/IMG_3303.PNG");
+    background-size: 20%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+.s1 h2{
+    font-size: 35px;
+    color: white;
+    margin: 10px
+}
+.s1 p{
+    font-size: 25px;
+    color: white;
+    margin:10px
+}
+.s1 a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #ACACAC;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+.s1 a:hover{
+    text-decoration: underline;
+}
+.s2{
+    background-color: #9E643C;
+    height: 100vh;
+    background-image: url("image/magic\ tree2.png");
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+.s2 h2{
+    font-size: 30px;
+    color: white;
+    margin: 10px
+}
+.s2 p{  
+    font-size: 18px;
+    color: #fef7e6;
+    margin:10px
+}
+.s2 a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #ACACAC;
+    padding: 7px 8px;
+    border-radius: 5px;
+}   
+.s2 a:hover{
+    text-decoration: underline;
+}
+.s3{
+    background-color: #c2b6b2;
+    height: 100vh;
+    background-image: url("image/IMG_3305.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+.s3 h2{
+    font-size: 30px;
+    color: white;
+    margin: 10px
+}
+.s3 p{
+    font-size: 18px;
+    color: #fef7e6;
+    margin:10px
+}
+.s3 a{
+    font-size: 15px;
+    color: #fef7e6;
+    text-decoration: none;
+    border: 2px solid #ACACAC;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+.s3 a:hover{
+    text-decoration: underline;
+}
+.s4{
+    background-color: black;
+    background-image: url(image/rain.png);
+    height: 100vh;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+
+}
+.s4 h2{
+    font-size: 30px;
+    color: white;
+    margin: 10px
+}
+.s4 p{
+    font-size: 18px;
+    color: #fef7e6;
+    margin:10px
+}
+.s4 a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #ACACAC;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+.s4 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #605856;
+    color:white;
+    height: 100px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
